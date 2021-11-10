@@ -18,7 +18,7 @@ function saludarEstudiante(estudiante) { // Se declara la funcion sin un paramet
     console.log(estudiante);
 }
 saludarEstudiante("Mario Bros"); //Se llama la funcion con el parametro
-//Ejemplo de Template string
+//Ejemplo de Template string.
 function saludarEstudiante(estudiante) { // Se declara la funcion sin un parametro definido
     console.log(`Hola ${estudiante}`); //Genera un string y lo liga a una variable
 }
