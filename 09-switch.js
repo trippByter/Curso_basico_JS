@@ -13,5 +13,5 @@ switch (numero){ //Aquí de valida algo. No es condicion. Es validar
         console.log('Soy un cien!');
         break;
     default: //Si el parametro no corresponde a ningun caso
-        console.log('No ni uno ni diez ni cien');
+        console.log('No soy ni uno ni diez ni cien');
 }
