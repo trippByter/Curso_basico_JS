@@ -5,14 +5,18 @@
 
 var estudiantes = ['Maria', 'Sergio', 'Rosa', 'Daniel'];
 function saludarEstudiantes(estudiante){
-    console.log(`Hola, ${estudiante}`);
-}
+    console.log(`Hola, ${estudiante}`); // Por cada elemento en el array, el loop ejecuta esta
+}                                       // tarea, sin tener que hacerlo manual
 // Empezamos el loop
-//dec. init i|var menor q long. array|i + 1
+//decl init i|var menor q long. array|i + 1
 for(var i = 0; i < estudiantes.length; i++){
-    console.log(estudiantes[i]); // Llama el array en la posicion del indice de ese i
+    console.log(estudiantes[i]); // Llama el array en la posicion del indice de 'i'.
 }
-//dec. init i|var menor q long. array|i + 1
+// Invocamos funcion conteniendo array
 for(var i = 0; i < estudiantes.length; i++){
     saludarEstudiantes(estudiantes[i]); // Llama la función que contiene el console.log
 }                                       // Llama el array en la posci. 'i'
+// Iniclzms una var en singular del array plural. Mientras hayan elementos, seguira ejec.
+for(var estudiante of estudiantes){
+    saludarEstudiantes(estudiante);
+}
